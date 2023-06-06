@@ -1,0 +1,95 @@
+<!--Fahad Mohammed
+02/25/21
+Project 4
+-->
+<!--Question are from 
+https://www.funtrivia.com/en/Television/Transformers-2364.html  -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> project 4</title><!-- This is the title tag-->
+        <meta charset="UTF-8"><!-- it gives the info about the special char set-->
+        <link rel="stylesheet" href="pj4.css"> <!--This is connecting the CSS file to the main-->
+        <script src="pj4.js"></script><!-- connects the js to html-->
+        
+    </head>
+    <body>
+
+        <h1> Online Quiz Project 4 </h1>  <!--Heading for uploading the file-->
+        <ol><!--made the questions in an orderedlist
+        aslo made the hint buttion which executes when clicked-->
+            <li>Who was the original leader of the Decepticons in "The Transformers" animated series? <br>
+            <ol>
+                <li><input type="radio" name="1" value="a"> &nbsp;
+                    BumbleBee.</li>
+                <li><input type="radio" name="1" value="b"> &nbsp;
+                    Wheel Jack. </li>
+                <li><input type="radio" name="1" value="c"> &nbsp;
+                    Megatron.</li>
+                    <button onclick="myFunction0()">Hint</button>
+                    <div id="hints0" style= "display:none"> Hes Evil</div> 
+                    <p>Press Hints for help.</p>
+            </ol></li>
+        <!--made the questions in an orderedlist
+        aslo made the hint buttion which executes when clicked-->
+            <li>The Transformers are sentient robots that come from what planet?<br>
+            <ol>
+                <li><input type="radio" name="2" value="a"> &nbsp;
+                    Cybertron.</li>
+                <li><input type="radio" name="2" value="b"> &nbsp;
+                    Marsotron.</li>
+                <li><input type="radio" name="2" value="c"> &nbsp;
+                    Earthatron. </li>
+                    <button onclick="myFunction1()">Hint</button>
+                    <div id="hints1" style= "display:none"> Its a metal planet</div> 
+                    <p>Press Hints for help.</p>
+            </ol></li>
+            <!--made the questions in an orderedlist
+            aslo made the hint buttion which executes when clicked-->
+            <li>Which Decepticon produces the energon cubes from his chest?<br>
+                <ol>
+                    <li><input type="radio" name="3" value="a"> &nbsp;
+                        Shockwave. </li>
+                    <li><input type="radio" name="3" value="b"> &nbsp;
+                        Soundwave.</li>
+                    <li><input type="radio" name="3" value="c"> &nbsp;
+                        Jetfire.</li>
+                <button onclick="myFunction2()">Hint</button>
+                <div id="hints2" style= "display:none"> Microcassette recorder</div> 
+                <p>Press Hints for help.</p>
+            </ol></li>
+            <!--made the questions in an orderedlist
+             aslo made the hint buttion which executes when clicked-->
+            
+            <li>Who was the leader of the Autobots?<br>
+                <ol>
+                    <li><input type="radio" name="4" value="a"> &nbsp;
+                        Chuck Norris.</li>
+                    <li><input type="radio" name="4" value="b"> &nbsp;
+                        Optimus Prime.</li>
+                    <li><input type="radio" name="4" value="c"> &nbsp;
+                        IronMan.</li>
+                        <button onclick="myFunction3()">Hint</button>
+                        <div id="hints3" style= "display:none"> Red, White and Blue</div> 
+                        <p>Press Hints for help.</p>
+            </ol></li>
+            <!--made the questions in an orderedlist
+            aslo made the hint buttion which executes when clicked-->
+            <li>Who was the first "Transformer" seen in the G1 animated series?<br>
+                <ol>
+                    <li><input type="radio" name="5" value="a"> &nbsp;
+                        Wheeljack </li>
+                    <li><input type="radio" name="5" value="b"> &nbsp;
+                        Jetfire</li>
+                    <li><input type="radio" name="5" value="c"> &nbsp;
+                        BumbleBee.</li>
+                        <button onclick="myFunction4()">Hint</button>
+                        <div id="hints4" style= "display:none"> He has italian colors</div> 
+                        <p>Press Hints for help.</p>
+            </ol></li>
+
+            <button id="btn2">Compute Score</button><!--Button to get the scores-->
+            <p id="score"></p>
+        </body>
+    </html>
+    

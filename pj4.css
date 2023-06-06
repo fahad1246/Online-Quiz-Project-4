@@ -1,0 +1,62 @@
+/*Fahad Mohammed  CSS Comment
+     Feb 25, 2021
+     Project 4*/
+
+ body {
+        background-color: rgb(106, 166, 214); /* this is the backgroung color for the web page*/
+        border:2px solid;/* this if for the boder of the box*/
+        border-radius: 5px;/*this is for the radius of the box*/
+        font-family:Arial, Helvetica, sans-serif, Georgia ;/* this is the fonts used on the web page*/ 
+        color:rgb(0, 0, 0);  /*This is the color for the rext*/
+        font-weight:bold; /*This turns the font to bold*/
+   }
+   h1 {/*this is for aligning h1 to the center and makes it look nice*/
+       text-decoration: underline ;
+       text-align: center;
+       text-decoration-style: solid ;
+   } 
+   img{/*this sets the image size*/
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+   }
+   #hints0 { /* This helps out with the hit shows the hight and width also shows the colors. */
+    width: 70px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  #hints1 { /* This helps out with the hit shows the hight and width also shows the colors. */
+    width: 150px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+   #hints2 {/* This helps out with the hit shows the hight and width also shows the colors. */
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+   #hints3 {/* This helps out with the hit shows the hight and width also shows the colors. */
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+   #hints4 {/* This helps out with the hit shows the hight and width also shows the colors. */
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+button {
+        font-weight: bold; /*This turns the font to bold*/
+        padding: 7px; /*This gives the padding to the button*/
+        font-size: 14px;/* this is the fonts used on the button*/
+        border-radius: 5px;/*this is for the radius of the button box*/
+    }
+     
+    button:hover
+    {
+        background-color:rgb(148, 208, 216) ;/* this is the backgroung color for the button when you hover your mouse on the button*/ 
+    }
